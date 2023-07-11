@@ -1,0 +1,19 @@
+.rtl{
+    direction: rtl;
+}
+
+.media{
+    transition: all 1s ease;
+}
+
+.hover:hover .media{
+    transform: scale(1.1);
+}
+
+.desc{
+    transition: all 1s ease;
+}
+
+.hover:hover .desc{
+    opacity: 75%;
+}
