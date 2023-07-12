@@ -7,7 +7,12 @@ const AboutUs = () => {
   return (
     <>
       <RootLayout>
-        <div className="overflow-hidden relative h-screen flex flex-col justify-center items-center">
+        <div className="overflow-hidden relative h-screen flex flex-col items-center">
+          <img
+            src="./src/assets/market.jpg"
+            className="w-full h-1/2 object-cover object-center rounded-es-full mb-10"
+            alt="travertin"
+          />
           <Circle
             backgroundColor="#b0ff49"
             top="-50vh"
@@ -16,17 +21,11 @@ const AboutUs = () => {
             height="100vh"
           />
           <div className="flex flex-col justify-center items-center">
-            <h2 className="flex flex-col items-center justify-center text-2xl font-bold">
+            <h2 className="flex flex-col items-center justify-center text-5xl font-bold">
               درباره ی ما
             </h2>
             <div className="flex items-center justify-center mx-4 mt-10 ">
-              <img
-                src="./src/assets/market.jpg"
-                alt="travertin"
-                width="400"
-                height="30"
-              />
-              <p className="flex rtlForP">
+              <p className="flex rtlForP mx-10">
                 شرکت بازرگانی HPCStone، یک شرکت بازرگانی ممتاز، صادق و قابل
                 اعتماد با کادری پر تلاش است که مشتریان را در یافتن سنگ های مرغوب
                 به شکل اسلب، تایل یا بلوک از معادن غرب کشور و به طور خاص شهرستان
