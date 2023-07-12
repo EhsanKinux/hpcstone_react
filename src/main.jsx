@@ -5,6 +5,7 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ErrorPage from "./pages/ErrorPage.jsx";
 import Products from "./pages/products/Products.jsx";
+import ContactUs from "./pages/contactUs/ContactUs.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/contactus",
+    element: <ContactUs />,
   },
   {
     path: "/aboutus",
