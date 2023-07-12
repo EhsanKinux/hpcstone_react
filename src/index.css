@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,4 +15,8 @@ html {
 body {
   transition: scroll-behavior 0.8s ease-in-out;
   transform: translateZ(0);
+}
+
+.rtl {
+  direction: rtl;
 }
