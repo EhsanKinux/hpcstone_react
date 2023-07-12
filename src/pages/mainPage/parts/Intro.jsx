@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import "./intro.css"
 
 const Intro = () => {
   return (
-    <div className="w-full h-screen flex overflow-hidden relative">
+    <div className="w-full h-screen flex overflow-hidden relative bgPattern">
       <div className="flex-1 p-24 pr-0 flex flex-col justify-around">
         {/* <Circle
                 backgroundColor="#b0ff49"
@@ -31,10 +32,10 @@ const Intro = () => {
           </Link>
         </div>
       </div>
-      <div className="flex-1 pr-0 relative h-[75%]">
+      <div className="flex-1 pr-0">
         <img
           src="./src/assets/top-view-boards-mdf-material.jpg"
-          className="w-fit rounded-es-full z-[100] object-fill"
+          className="rounded-es-[100%] z-[100]"
           alt="img"
         />
         {/* <Circle
