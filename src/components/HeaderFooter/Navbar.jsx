@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className='bg-gray-900 text-white h-14 flex items-center justify-between px-24 z-50'>
+    <div className="bg-gray-900 text-white h-14 flex items-center justify-between px-24 z-50 sticky top-0">
       <Link to="/">HPCstone</Link>
-      <ul className='text-gray-300 flex gap-4 right-0'>
+      <ul className="text-gray-300 flex gap-4 right-0">
         <li>
           <Link to="/">خانه</Link>
         </li>
@@ -22,7 +22,7 @@ const Navbar = () => {
         </li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
