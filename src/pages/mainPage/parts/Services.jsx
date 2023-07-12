@@ -5,7 +5,7 @@ import "./services.css";
 const Services = () => {
   return (
     <div className="px-24 mt-10">
-      <div>
+      <div className="rtlText" >
         <h1 className="text-2xl border-b-4 border-green-500 w-fit">
           مرغوبترین سنگ های قروه
         </h1>
