@@ -7,3 +7,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: scroll-behavior 0.8s ease-in-out;
+  transform: translateZ(0);
+}
