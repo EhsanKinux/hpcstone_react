@@ -1,5 +1,5 @@
 const Travertin = () => {
-  return <div className="flex">Travenix Under Development...</div>;
+  return <div className="flex">Travertin Under Development...</div>;
 };
 
 export default Travertin;
