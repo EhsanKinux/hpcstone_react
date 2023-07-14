@@ -14,15 +14,15 @@ const Products = () => {
 
   return (
     <RootLayout>
-      <div className="min-h-screen flex bg-white products">
-        <nav className="w-2/12 bg-slate-600 text-white">
+      <div className="min-h-screen flex products">
+        <nav className="w-2/12 bg-gray-100 text-slate-800">
           <ul className="flex flex-col sticky top-20 gap-2 h-3/6 overflow-y-auto">
             <h2 className="text-center mb-4">محصولات</h2>
             {categories.map((category) => {
               return (
                 <>
                   <Link
-                    className="p-5 mx-5 rounded border border-amber-500"
+                    className="p-5 hover:bg-green-100"
                     to={`/products/${category.pathName}`}
                     key={category.id}
                   >
