@@ -18,15 +18,15 @@ const Intro = () => {
           </h1>
           <p className="text-xl">Hard Precious Colorful</p>
         </div>
-        <div>
-          <h1 className="text-2xl">
+        <div className="flex" >
+          <h1 className="text-2xl font-bold">
             خرید سریع و مطمئن و ارزان مرغوب ترین سنگ های قروه
           </h1>
         </div>
         <div>
           <Link
             to="/products"
-            className="text-white border-none bg-green-600 p-4 rounded-xl"
+            className="productBtn"
           >
             مشاهده محصولات
           </Link>
