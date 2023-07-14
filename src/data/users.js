@@ -1,27 +1,29 @@
 export const users = [
-    {
-        id:1,
-        logo:"",
-        avatar:"./src/assets/manager.jpg",
-        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        name:"Somaye Khodaveisi",
-        title:"Manager",
-    },
-    {
-        id:2,
-        logo:"",
-        avatar:"./src/assets/webdeveloper.jpg",
-        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        name:"Ehsan Khodaveisi",
-        title:"Web Developer",
-    },
-    {
-        id:3,
-        logo:"",
-        avatar:"./src/assets/webdeveloper.jpg",
-        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        name:"Sina Moradian",
-        title:"Web Developer",
-    },
-
-]
+  {
+    id: 1,
+    logo: "",
+    avatar: "./src/assets/manager.jpg",
+    comment:
+      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان",
+    name: "Somaye Khodaveisi",
+    title: "Manager",
+  },
+  {
+    id: 2,
+    logo: "",
+    avatar: "./src/assets/webdeveloper.jpg",
+    comment:
+      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان",
+    name: "Ehsan Khodaveisi",
+    title: "Web Developer",
+  },
+  {
+    id: 3,
+    logo: "",
+    avatar: "./src/assets/webdeveloper.jpg",
+    comment:
+      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان",
+    name: "Sina Moradian",
+    title: "Web Developer",
+  },
+];
