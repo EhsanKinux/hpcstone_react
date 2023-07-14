@@ -3,6 +3,7 @@ import { BsTelegram } from "react-icons/bs";
 import {AiFillLinkedin} from "react-icons/ai"
 import {BiLogoWhatsappSquare} from "react-icons/bi"
 import { Link } from "react-router-dom";
+import "./footer.css"
 
 const Footer = () => {
   return (
@@ -11,10 +12,9 @@ const Footer = () => {
         <h1 className="title text-3xl font-normal p-2 text-gray-100 bg-[#379237] rounded-md">
           HPC STONE
         </h1>
-        <h1 className="linkTitle underline">
-          <Link to="/contactus">
-            <span className="mx-4">با ما کار کنید</span>
-            {/* <Image src="" alt="" /> */}
+        <h1 className="followUsText" >
+          <Link to="/contactus" className="mx-4">
+            با ما کار کنید
           </Link>
         </h1>
       </div>
