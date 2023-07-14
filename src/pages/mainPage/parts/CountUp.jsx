@@ -1,5 +1,9 @@
 import { useEffect, useRef } from "react";
 import { useCountUp } from "react-countup";
+import { IconContext } from "react-icons";
+import { IoPeopleCircleOutline } from "react-icons/io5";
+import { LiaProductHunt } from "react-icons/lia";
+import { PiShoppingBagOpenDuotone } from "react-icons/pi";
 
 const CountUp = () => {
   // Refs for each count-up animation
@@ -92,20 +96,51 @@ const CountUp = () => {
   };
 
   return (
-    <>
-      <div>
-        <h1>تعداد سفارشات</h1>
-        <span ref={countupRef1}>{countUpOrders}</span>
+    <div className="flex justify-center items-center gap-10 p-10 px-20 my-10">
+      <div className="flex flex-col border p-10 gap-5 shadow-md shadow-slate-300 hover:-translate-y-1 transition-all glassEffect w-1/4">
+        <div className="text-8xl text-center">
+          <IconContext.Provider
+            value={{ size: "80", className: "m-auto mb-5 text-green-500" }}
+          >
+            <IoPeopleCircleOutline />
+          </IconContext.Provider>
+          <span>+</span>
+          <span ref={countupRef1}>{countUpOrders}</span>
+        </div>
+
+        <h2 className="text-2xl font-bold border-b-4 border-green-500 w-fit m-auto py-2">
+          تعداد سفارشات
+        </h2>
       </div>
-      <div>
-        <h2>تعداد محصولات</h2>
-        <span ref={countupRef2}>{countUpProducts}</span>
+      <div className="flex flex-col border p-10 gap-5 shadow-md shadow-slate-300 hover:-translate-y-1 transition-all glassEffect w-1/4">
+        <div className="text-8xl text-center">
+          <IconContext.Provider
+            value={{ size: "80", className: "m-auto mb-5 text-green-500" }}
+          >
+            <LiaProductHunt />
+          </IconContext.Provider>
+          <span>+</span>
+          <span ref={countupRef2}>{countUpProducts}</span>
+        </div>
+        <h2 className="text-2xl font-bold border-b-4 border-green-500 w-fit m-auto py-2">
+          تعداد محصولات
+        </h2>
       </div>
-      <div>
-        <h3>تعداد مشتریان</h3>
-        <span ref={countupRef3}>{countUpCustomers}</span>
+      <div className="flex flex-col border p-10 gap-5 shadow-md shadow-slate-300 hover:-translate-y-1 transition-all glassEffect w-1/4">
+        <div className="text-8xl text-center">
+          <IconContext.Provider
+            value={{ size: "80", className: "m-auto mb-5 text-green-500" }}
+          >
+            <PiShoppingBagOpenDuotone />
+          </IconContext.Provider>
+          <span>+</span>
+          <span ref={countupRef3}>{countUpCustomers}</span>
+        </div>
+        <h2 className="text-2xl font-bold border-b-4 border-green-500 w-fit m-auto py-2">
+          تعداد مشتریان
+        </h2>
       </div>
-    </>
+    </div>
   );
 };
 
